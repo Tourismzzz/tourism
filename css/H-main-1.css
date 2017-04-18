@@ -1,0 +1,224 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.H-header {
+  height: 88px;
+}
+
+.H-logo {
+  float: left;
+  margin-top: 32px;
+  margin-left: 13px;
+}
+
+.H-text {
+  font-size: 24px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-family: "苹方";
+}
+
+.H-head-icon-list {
+  float: right;
+  width: 60px;
+  height: auto;
+  position: relative;
+  margin-top: 32px;
+}
+
+.H-head-icon-list img {
+  cursor: pointer;
+}
+
+.H-list-box {
+  width: 684px;
+  height: 162px;
+  background: #FFFFFF;
+  position: absolute;
+  left: -636px;
+  top: 50px;
+  font-family: "苹方";
+  color: #a2a2a2;
+  font-size: 30px;
+  text-align: center;
+  line-height: 77px;
+  background-image: url(../img/H-img/list-border.png);
+  border: 1px solid #535353;
+  background-size: 684px;
+  display: none;
+}
+
+.H-list-box a {
+  display: block;
+  color: #A2A2A2;
+  width: 226px;
+  height: 77px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.H-list-box .H-active {
+  color: #000;
+}
+
+.H-banner-box {
+  height: 803px;
+  background-image: url(../img/H-img/H-min-banner.png);
+  background-size: auto 803px;
+  background-position: -99px;
+  background-repeat: no-repeat;
+}
+
+.H-banner-box .tin {
+  display: block;
+  margin-top: 270px;
+  margin-bottom: 90px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.H-banner-box p {
+  font-size: 72px;
+  text-align: center;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.H-banner-box p span {
+  color: #f9c45e;
+  font-size: 72px;
+  display: inline-block;
+}
+
+.H-banner-box b {
+  display: block;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'helvetica';
+  margin-top: 60px;
+}
+
+.H-banner-box b span {
+  color: #f9c45e;
+}
+
+.H-banner-box .china {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "苹方";
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 20px;
+}
+
+.H-banner-box .china span {
+  color: #f9c45e;
+}
+
+.H-big-header {
+  background-color: #020203;
+  height: 72px;
+}
+
+.H-big-logo img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.H-big-logo p {
+  margin-top: 12px;
+  margin-left: 16px;
+  float: left;
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: "微软雅黑";
+}
+
+.H-big-logo p span {
+  display: inline-block;
+  font-size: 24px;
+  font-family: helvetica;
+}
+
+.H-adorn {
+  background-image: url(../img/H-img/H-head-adorn.png);
+  width: 69px;
+  height: 100px;
+  background-size: 69px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.H-header-list {
+  margin-top: 32px;
+  font-size: 18px;
+}
+
+.H-header-list a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.H-header-list a:hover {
+  text-decoration: none;
+  color: #f9c45e;
+}
+
+.H-header-list .H-active-1 {
+  color: #f9c45e;
+}
+
+.H-search {
+  position: relative;
+}
+
+.H-search input {
+  padding: 4px 0px 4px 26px;
+  height: 26px;
+  border-radius: 13px;
+  width: 108px;
+  margin-top: 31px;
+}
+
+.H-search span {
+  display: block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 37px;
+  left: 24px;
+}
+
+.H-banner-box {
+  width: auto;
+  height: 618px;
+  overflow: hidden;
+  position: relative;
+}
+
+.H-banner-box .H-banner-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url(../img/H-img/banner-1.jpg);
+  background-size: 100% 618px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
