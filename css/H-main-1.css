@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.H-header {
+  height: 88px;
+}
+
+.H-logo {
+  float: left;
+  margin-top: 32px;
+  margin-left: 13px;
+}
+
+.H-text {
+  font-size: 24px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-family: "苹方";
+}
+
+.H-head-icon-list {
+  float: right;
+  width: 60px;
+  height: auto;
+  position: relative;
+  margin-top: 32px;
+}
+
+.H-head-icon-list img {
+  cursor: pointer;
+}
+
+.H-list-box {
+  width: 684px;
+  height: 166px;
+  background: #FFFFFF;
+  position: absolute;
+  left: -636px;
+  top: 80px;
+  font-family: "苹方";
+  color: #a2a2a2;
+  font-size: 30px;
+  text-align: center;
+  line-height: 77px;
+  background-image: url(../img/H-img/list-border.png);
+  border: 1px solid #535353;
+}
+
+.H-list-box div {
+  width: 226px;
+  height: 77px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+}

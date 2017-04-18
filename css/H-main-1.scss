@@ -1,0 +1,56 @@
+.H-header{
+    height: 88px;
+}
+
+@mixin f($t,$l){
+   float:left;
+   margin: {
+       top: $t+px;
+       left: $l+px;
+   };
+}
+.H-logo{
+    @include f(32,13);    
+}
+.H-text{
+    font-size: 24px;
+    @include f(30,10);
+    font-family: "苹方";
+    
+}
+.H-head-icon-list{
+    float: right;
+    width: 60px;
+    height: auto;
+    position: relative;
+    margin: {
+        top: 32px;
+    };
+    img{
+        cursor: pointer;
+    }
+}
+.H-list-box{
+    width: 684px;
+    height: 166px;
+    background: #FFFFFF;
+    position: absolute;
+    left: -636px;
+    top: 80px;
+    font-family: "苹方";
+    color: #a2a2a2;
+    font-size: 30px;
+    text-align: center;
+    line-height: 77px;
+    background-image:url(../img/H-img/list-border.png) ;
+    border: 1px solid #535353;
+    background-size: 684px;
+    a{
+        display: block;
+        color: #A2A2A2;
+        width: 226px;
+        height: 77px;
+        @include f(0,0);
+        cursor: pointer;
+    }
+}
