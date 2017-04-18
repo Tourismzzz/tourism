@@ -1,0 +1,128 @@
+.banner {
+  width: 100%;
+  height: 620px;
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-position: center 10%;
+  position: relative; }
+
+.banner > p:nth-child(1) {
+  text-align: center;
+  font: 900 80px/30px "";
+  color: #fff;
+  position: absolute;
+  top: 270px; }
+
+.banner > p:nth-child(2) {
+  text-align: center;
+  font: normal 15px/20px "";
+  color: #fff;
+  position: absolute;
+  top: 350px; }
+
+.banner > p:nth-child(3) {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #fff;
+  text-align: center;
+  font: normal 15px/40px "";
+  color: #fff;
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  margin-left: -125px; }
+
+main {
+  height: 4000px;
+  background: #fff;
+  position: absolute;
+  top: -50px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5); }
+
+#img1 {
+  margin-top: 170px; }
+
+#hot > div {
+  width: 45px;
+  height: 4px;
+  background: #97785F; }
+
+#hot > p:nth-child(2) {
+  margin: 0;
+  font-size: 12px;
+  line-height: 30px; }
+
+#hot > p:nth-child(4), .hotxia {
+  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+  color: #eee;
+  letter-spacing: 30px; }
+
+.line {
+  height: 1px;
+  background: #97785F; }
+
+.img2 {
+  position: absolute;
+  left: 50%;
+  margin: 60px 0 0 -300px; }
+
+.span {
+  width: 100%;
+  text-align: center;
+  margin: 300px 0 20px; }
+
+.span > span:nth-child(1),
+.span1 > span:nth-child(1) {
+  font: bold 18px/20px "";
+  position: relative; }
+
+.span > span:nth-child(1):before,
+.span1 > span:nth-child(1):before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #000;
+  position: absolute;
+  top: 9px;
+  left: -13px; }
+
+.span > span:nth-child(2),
+.span1 > span:nth-child(2) {
+  color: #c8c8c8;
+  font: 500 18px/20px ""; }
+
+.span > span:nth-child(3),
+.span1 > span:nth-child(3) {
+  color: #c8c8c8;
+  font: 500 18px/20px ""; }
+
+.lv {
+  font-size: 14px;
+  color: #787878;
+  margin-bottom: 30px; }
+
+.span1 {
+  position: relative;
+  left: 13px;
+  margin-bottom: 20px; }
+
+.picture {
+  height: 335px;
+  background-image: url("../img/4.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#boxspan {
+  margin: 30px 0 20px; }
+
+#box3 {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+
+.zuo {
+  color: #b2b2b2;
+  text-align: center;
+  font: 200 13px/20px "";
+  margin: 0 0 20px; }
