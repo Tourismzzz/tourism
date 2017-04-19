@@ -17,8 +17,10 @@ $(function(){
 	}
 	var t=setInterval(move,3000);
 	ban.mousemove(function(){
+		$(this).clearQueue();
 		clearInterval(t);
 	}).mouseout(function(){
+		$(this).clearQueue();
 		t=setInterval(move,3000);
 	})
 	nav.click(function(){

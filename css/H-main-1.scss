@@ -218,6 +218,7 @@
         background-repeat: no-repeat;
         background-position: center;
         transition: all 2s; 
+        text-decoration: none;
     }
     .first{
         transition: all 2s; 
@@ -338,7 +339,60 @@
     }
 }
 .center-imgbox{
+    text-align: center;
     margin: {
         top: 48px;
     };
+    
+    color:#636363;
+    .title-min-box{
+        text-decoration: none;
+        color: #686868;
+        .p-1{
+            margin-top: 32px;
+           font-size: 30px;
+        }
+        .p-2{
+            font-size: 24px;
+        }
+        .p-3{
+            font-size: 20px;
+        }    
+    }
+     .title-lg-box{
+         text-decoration: none;
+         color: #686868;
+        .p-1{
+            margin-top: 28px;
+           font-size: 18px;
+        }
+        .p-2{
+            font-size: 18px;
+        }
+        .p-3{
+            font-size: 12px;
+        }    
+    }
+    
 }
+.H-right{
+    height: 378px;
+    line-height: 378px;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: "宋体";
+    text-align: center;
+    color: #a0a0a0;    
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+.H-right:hover{
+        opacity: 1;
+ }
+.H-left{
+    @extend .H-right
+}
+.H-left:hover{
+        opacity: 1;
+    }
