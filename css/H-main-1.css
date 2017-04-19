@@ -76,7 +76,7 @@
   background-repeat: no-repeat;
 }
 
-.H-banner-box .tin {
+.H-banner-box .tin-2 {
   display: block;
   margin-top: 270px;
   margin-bottom: 90px;
@@ -212,21 +212,150 @@
   left: 24px;
 }
 
-.H-banner-box {
+.H-banner-box-1 {
   width: auto;
-  height: 618px;
+  height: 580px;
   overflow: hidden;
   position: relative;
 }
 
-.H-banner-box .H-banner-img {
+.H-banner-box-1 .H-banner-img {
   position: absolute;
   width: 100%;
   height: 100%;
+  opacity: 0;
   left: 0;
   top: 0;
   background-image: url(../img/H-img/banner-1.jpg);
-  background-size: 100% 618px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
+  transition: all 2s;
+}
+
+.H-banner-box-1 .first {
+  transition: all 2s;
+  opacity: 1;
+  z-index: 10;
+}
+
+.H-banner-img .tin {
+  display: block;
+  margin-top: 78px;
+  margin-bottom: 82px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.H-banner-img p {
+  font-size: 72px;
+  text-align: center;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.H-banner-img p span {
+  color: #f9c45e;
+  font-size: 72px;
+  display: inline-block;
+}
+
+.H-banner-img b {
+  display: block;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'helvetica';
+  margin-top: 42px;
+}
+
+.H-banner-img b span {
+  color: #f9c45e;
+}
+
+.H-banner-img .china {
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: "苹方";
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 20px;
+}
+
+.H-banner-img .china span {
+  color: #f9c45e;
+}
+
+.H-banner-img .H-ban-button {
+  width: 166px;
+  height: 33px;
+  border: 3px solid #c9c9c9;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.H-banner-img .H-ban-button span {
+  font-size: 18px;
+  color: #C9C9C9;
+}
+
+.H-nav {
+  width: 120px;
+  height: 12px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  margin-left: -60px;
+  z-index: 100;
+}
+
+.H-nav li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.H-nav .nav-active {
+  background-color: #f9c45e;
+}
+
+.H-ly-center {
+  background-image: url(../img/H-img/H-title.png);
+  background-size: 266px;
+  width: 266px;
+  height: 57px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.H-ly-title {
+  text-align: center;
+  font-size: 36px;
+  color: #787777;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.H-ly-title-2 {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  color: #959595;
+}
+
+.H-ly-title-2 span {
+  font-weight: bold;
+}
+
+.center-imgbox {
+  margin-top: 48px;
 }
