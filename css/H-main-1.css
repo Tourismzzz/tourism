@@ -418,3 +418,41 @@
 .H-left:hover {
   opacity: 1;
 }
+
+.bg-excessive {
+  background-color: #f9c45e;
+  width: 100%;
+  height: 266px;
+}
+
+.bg-excexssive-2 {
+  background-color: #384253;
+}
+
+.fly-box {
+  position: absolute;
+  top: -110px;
+  animation: fly 4s infinite alternate linear;
+}
+
+.fly-box img {
+  width: 100%;
+}
+
+@keyframes fly {
+  0% {
+    top: -110px;
+    transform: rotateX(0);
+    transform: rotateZ(0);
+  }
+  50% {
+    top: -90px;
+    transform: rotateX(20deg);
+    transform: rotateZ(2deg);
+  }
+  100% {
+    top: -110px;
+    transform: rotateX(0);
+    transform: rotateZ(0);
+  }
+}
