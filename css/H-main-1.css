@@ -139,17 +139,17 @@
 }
 
 .H-big-logo p {
-  margin-top: 12px;
+  margin-top: 18px;
   margin-left: 16px;
   float: left;
-  font-size: 30px;
+  font-size: 24px;
   color: #FFFFFF;
   font-family: "微软雅黑";
 }
 
 .H-big-logo p span {
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
   font-family: helvetica;
 }
 
@@ -162,6 +162,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 .H-header-list {
@@ -187,12 +188,19 @@
   position: relative;
 }
 
-.H-search input {
+.H-search .H-inputbox {
   padding: 4px 0px 4px 26px;
   height: 26px;
   border-radius: 13px;
   width: 108px;
   margin-top: 31px;
+  background-color: #FFFFFF;
+}
+
+.H-search input {
+  width: 90%;
+  height: 100%;
+  border: none;
 }
 
 .H-search span {
