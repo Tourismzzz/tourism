@@ -776,6 +776,7 @@ a:hover {
   position: absolute;
   top: -100px;
   right: 50px;
+  z-index: 20;
 }
 
 .H-video-box {
@@ -1041,11 +1042,38 @@ a:hover {
   right: 28%;
 }
 
+.H-cover-bom {
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: -40px;
+  left: 0px;
+  z-index: 10;
+}
+
+.H-bottom-text {
+  margin-top: 40px;
+  text-align: center;
+  color: #000000;
+  font-size: 14px;
+}
+
+.celantop {
+  width: 60px;
+  height: 24px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  float: right;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+}
+
 footer {
   height: 320px;
   background: #000;
-  position: absolute;
-  bottom: 139px;
 }
 
 footer #bottom {

@@ -50,5 +50,21 @@ function move_2(){
 	now_2=next_2;
 }
 var t_2=setInterval(move_2,2000)
+
+//返回顶部
+let top=$('.celantop');
+	top.click(function(){
+	$(document.documentElement).animate({scrollTop:0},800);
+	$(document.body).animate({scrollTop:0});
+	})
+$(window).scroll(function(e){
+	let top=document.documentElement.scrollTop||document.body.scrollTop;
+	console.log(top)
+	if(top>4000){
+		$('.H-camera').fadeIn('slow').animate({right:50})
+	}else{
+		$('.H-camera').fadeOut('slow')
+	}
+})
 })//onload结束
 
