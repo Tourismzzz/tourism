@@ -323,6 +323,7 @@
   height: 12px;
   border-radius: 50%;
   background-color: #FFFFFF;
+  cursor: pointer;
 }
 
 .H-nav .nav-active {
@@ -536,6 +537,7 @@
 
 .custom {
   margin-top: 80px;
+  height: 1300px;
   position: relative;
 }
 
@@ -544,7 +546,9 @@
   height: 1300px;
   padding: 20px 15px;
   box-shadow: 0 0 9px #868686;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .line {
@@ -655,4 +659,117 @@
 .H-custom-more:hover {
   text-decoration: none;
   color: #f9c45e;
+}
+
+.H-cover {
+  width: 100%;
+  height: 30px;
+  background: #FFFFFF;
+  position: absolute;
+  top: -12px;
+  left: 0;
+}
+
+.H-cover-2 {
+  width: 30px;
+  height: 320px;
+  background: #FFFFFF;
+  position: absolute;
+  left: -20px;
+  top: 66px;
+}
+
+.H-cover-3 {
+  width: 30px;
+  height: 320px;
+  background: #FFFFFF;
+  position: absolute;
+  right: -20px;
+  top: 66px;
+}
+
+.middle-box {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  top: 3500px;
+  left: 0px;
+  z-index: 20;
+}
+
+.middle-box .video-middle {
+  width: 100%;
+  height: 320px;
+  background-image: url(../img/H-img/middle-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.middle-box .video-middle .H-btn {
+  width: 200px;
+  height: 44px;
+  line-height: 44px;
+  color: black;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  font-family: helvetica;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.middle-box .video-middle:hover {
+  text-decoration: none;
+}
+
+.middle-box .middle-tab {
+  width: 110px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -55px;
+  justify-content: space-between;
+}
+
+.middle-box .middle-tab li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.middle-box .middle-tab .middle-active {
+  background-color: black;
+}
+
+.middle-box .M-picture {
+  width: 415px;
+  height: 465px;
+  background-image: url(../img/H-img/1.png);
+  background-size: 415px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -145px;
+  right: 10px;
+  z-index: 10;
+}
+
+.H-camera {
+  width: 177px;
+  height: 241px;
+  background-image: url(../img/H-img/camera.png);
+  background-size: 177px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 100px;
+  right: 100px;
 }

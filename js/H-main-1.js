@@ -30,5 +30,25 @@ $(function(){
 			nav.eq(now).removeClass('nav-active').end().eq(index).addClass('nav-active');
 			now=index;
 	})
+//选项卡
 	
+$('.H-custom-tab li').mousemove(function(){
+	$('.H-custom-tab li').removeClass('tab-active');
+	$(this).addClass('tab-active');
+	let index=$(this).index()
+	$('.customBox').css('display','none').eq(index).css('display','block')
 })
+//middle轮播
+var next_2=0,now_2=0,video_m=$('.video-middle');
+function move_2(){
+	next_2=now_2+1;
+	if(next_2>video_m.length-1){
+		next_2=0;
+	}
+	video_m.eq(next_2).fadeIn('slow').end().eq(now_2).fadeOut('slow');
+	$('.middle-tab li').removeClass('middle-active').eq(next_2).addClass('middle-active')
+	now_2=next_2;
+}
+var t_2=setInterval(move_2,2000)
+})//onload结束
+
