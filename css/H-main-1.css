@@ -665,6 +665,17 @@ a:hover {
   color: #f9c45e;
 }
 
+.H-custom-more-1 {
+  height: 50px;
+  font-size: 24px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #f9c45e;
+  text-align: center;
+  line-height: 50px;
+}
+
 .H-cover {
   width: 100%;
   height: 30px;
@@ -1169,4 +1180,47 @@ footer #bottom #bott #map {
   footer #bottom #bott #map {
     width: 100%;
   }
+}
+
+.H-middle-min {
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  font-size: 30px;
+  width: 100%;
+  background-image: url(../img/H-img/middle-1.png);
+  height: 195px;
+  background-size: auto 195px;
+  position: relative;
+}
+
+.H-middle-min .cover-box {
+  background: #000000;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.H-middle-min .text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.H-middle-min .text .H-btn {
+  color: #6d6a6a;
+  width: 200px;
+  height: 40px;
+  background: #f9c45e;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  margin-left: -100px;
 }

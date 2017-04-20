@@ -1,6 +1,6 @@
 $(function(){
 //	大屏banner
-	$('.H-head-icon-list').on('touchstart',function(){
+	$('.H-head-icon-list').on('click',function(){
 		$('.H-list-box').slideToggle(200);
 	})
 	var now=0,next=0;
@@ -57,14 +57,14 @@ let top=$('.celantop');
 	$(document.documentElement).animate({scrollTop:0},800);
 	$(document.body).animate({scrollTop:0});
 	})
-$(window).scroll(function(e){
-	let top=document.documentElement.scrollTop||document.body.scrollTop;
-	console.log(top)
-	if(top>4000){
-		$('.H-camera').fadeIn('slow').animate({right:50})
-	}else{
-		$('.H-camera').fadeOut('slow')
-	}
-})
+//$(window).scroll(function(e){
+//	let top=document.documentElement.scrollTop||document.body.scrollTop;
+//	if(top>4000){
+//		$('.H-camera').fadeIn('slow').animate({right:50})
+//	}else{
+//		$('.H-camera').fadeOut('slow')
+//	}
+//})
+
 })//onload结束
 
