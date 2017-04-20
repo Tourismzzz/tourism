@@ -1,0 +1,359 @@
+@media screen and (min-width: 768px) {
+  .banner .col-sm-12 {
+    width: 100%;
+    height: 620px;
+    background: url(../../img/L-img/2ban.png) center center no-repeat;
+    background-origin: padding-box;
+    position: relative;
+    z-index: -1;
+  }
+  .banner .col-sm-12 img {
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: -200px;
+    margin: auto;
+  }
+  .title22, .xsfont {
+    display: none;
+  }
+  .p {
+    margin-top: 60px;
+    padding: 0;
+  }
+  .p2 {
+    margin-top: 20px;
+  }
+  .p .h1 {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+  }
+  .p .h1 span:nth-child(1) {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    float: left;
+    margin: 4px;
+  }
+  .p .h1 span:nth-child(2) {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .p .h1 span:nth-child(3) {
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: #C3C3C3;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+  .p > p {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .left div {
+    padding: 0 125px 0 60px;
+    box-sizing: border-box;
+  }
+  .left div p:nth-child(1) {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 75px;
+  }
+  .left div > p:nth-child(2) {
+    margin-top: 25px;
+    color: #787878;
+    line-height: 24px;
+  }
+  .left div > p:nth-child(3), .left div > p:nth-child(4) {
+    margin-top: 40px;
+    color: #787878;
+    line-height: 20px;
+    font-size: 10px;
+  }
+  .left div > p:nth-child(4) {
+    margin-top: 25px;
+  }
+  .left div > p:nth-child(5), .left div > p:nth-child(6) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .col-xs-12 {
+    width: 100%;
+    height: 880px;
+    background: url(../../img/L-img/2xs_ban.png) center center no-repeat;
+  }
+  .banner .col-xs-12 img {
+    display: none;
+  }
+  .main {
+    box-shadow: none !important;
+  }
+  .main .title {
+    margin: 0 24px;
+    box-sizing: border-box;
+  }
+  .title2 {
+    display: none;
+  }
+  .main .imgone #biao {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    overflow: hidden;
+  }
+  .p {
+    margin: 0 24px;
+    box-sizing: border-box;
+    margin-top: 45px;
+  }
+  .p .h1 {
+    width: 100%;
+    line-height: 20px;
+    overflow: hidden;
+  }
+  .p .h1 span:nth-child(1) {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    float: left;
+    margin: 4px;
+  }
+  .p .h1 span:nth-child(2) {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .p .h1 span:nth-child(3) {
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #C3C3C3;
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .p > p {
+    margin-top: 15px;
+    width: 100%;
+    padding-left: 10px;
+    color: #787878;
+  }
+  .smfont {
+    display: none;
+  }
+  .xsfont {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .video div#biao {
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    margin-left: -250px;
+  }
+  .left div p:nth-child(1) {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  .left div > p:nth-child(2) {
+    margin-top: 25px;
+    color: #787878;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .left div > p:nth-child(5), .left div > p:nth-child(6) {
+    margin-top: 54px;
+    color: #787878;
+    line-height: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .left div > p:nth-child(6) {
+    margin-top: 30px;
+  }
+  .left div > p:nth-child(3), .left div > p:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .titone {
+    width: 70%;
+  }
+  .video > div:nth-child(1) p:last-child {
+    display: none;
+  }
+  .left div > p:nth-child(4) {
+    display: none;
+  }
+}
+
+/*main*/
+.main {
+  box-shadow: 0 0 30px 0px #E2E2E2;
+  margin-top: -50px;
+  background: #fff;
+}
+
+.main .title img.tit1 {
+  margin: 0 auto;
+  margin-top: 70px;
+  display: block;
+}
+
+.main .title img.tit21 {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.main .title {
+  border-bottom: 1px solid #97785F;
+  overflow: hidden;
+}
+
+.title2 {
+  margin: 60px 0;
+  position: relative;
+}
+
+.title2 .spanbox {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  font-size: 10px;
+}
+
+.title22 {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 55px;
+  padding-bottom: 70px;
+  position: relative;
+  overflow: hidden;
+}
+
+.title22 .spanbox {
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+  margin-right: -83px;
+  font-size: 10px;
+  z-index: 3;
+  background: #fff;
+  padding: 0 20px;
+}
+
+.title22 .tiao {
+  width: 100%;
+  height: 1px;
+  background: #CCCCCC;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-size: 10px;
+  z-index: 2;
+}
+
+.spanbox > span:first-child {
+  margin-right: 15px;
+}
+
+.spanbox > span > span {
+  width: 10px;
+  height: 10px;
+  background: #CCCCCC;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.imgone {
+  position: relative;
+}
+
+.imgone .tu {
+  overflow: hidden;
+}
+
+.imgone .col-sm-12 {
+  padding: 0;
+}
+
+.imgone #biao {
+  position: absolute;
+  bottom: 40px;
+  left: -40px;
+}
+
+#biao .font {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  line-height: 57px;
+  color: #fff;
+}
+
+#biao .font span:first-child {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #97785F;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+#biao .font span:nth-child(2) {
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.video {
+  margin-top: 70px;
+  position: relative;
+}
+
+.video .col-sm-8 img {
+  width: 100%;
+}
+
+.video > div:nth-child(2) img {
+  width: 100%;
+}
+
+.video > div:nth-child(1) img {
+  width: 75%;
+}
+
+.video > div:nth-child(1) > p {
+  width: 100%;
+  margin-top: 40px;
+  color: #787878;
+}
+
+.video > div:nth-child(1) p:last-child {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.video #biao {
+  position: absolute;
+  bottom: 10px;
+  left: -40px;
+}
