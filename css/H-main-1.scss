@@ -501,6 +501,7 @@
 }
 .custom{
     margin-top: 80px;
+    position: relative;
 }
 .customBox{
     width: 100%;
@@ -534,4 +535,78 @@
     position: absolute;
     top: 140px;
     left: 10px;
+}
+.top{
+    font-size: 18px;
+    p:nth-child(2){
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    p:nth-child(3){
+        margin-bottom: 0;
+    }
+    h4{
+        font-size: 14px;
+        color: #777777;   
+    }
+    .custom-right{
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "宋体";
+        line-height: 40px;
+        margin-top: 50px;
+    }
+    .top-line{
+        width: 30px;
+        height: 1px;
+        background: #959394;
+        float: right;
+        margin: {
+            right: 60px;
+        };
+    }
+}
+.H-custom-tab{
+    width: 130px;
+    height: 8px;
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    margin-left: -75px;
+    display: flex;
+    justify-content: space-between;
+    li{
+        width: 30px;
+        height: 8px;
+        border-radius: 4px;
+        background: #384253;
+        cursor: pointer;
+    }
+    .tab-active{
+        background-color: #f9c45e;
+    }
+}
+.H-custom-more{
+    width: 132px;
+    height: 26px;
+    border: 2px solid #070505;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: helvetica;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    margin-left: -74px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+.H-custom-more:hover{
+    text-decoration: none;
+    color: #f9c45e;
 }
