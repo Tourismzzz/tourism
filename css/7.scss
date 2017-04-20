@@ -126,7 +126,7 @@ main{
   justify-content: space-between;
 }
 #row4{
-  height:100px;
+  height:110px;
  @include flex;
   div{
     width:45px;
@@ -210,7 +210,7 @@ main{
   }
 }
 #row7{
-  div{
+  #img777{
     width:400px;
     height:270px;
     background-image: url("../img/31.jpg");
@@ -222,8 +222,8 @@ main{
   width:650px;
   height:270px;
   position:absolute;
-  left:63px;
-  top:2064px;
+  left:65px;
+  top:2075px;
   z-index: 100;
   background:#F9C45E;
   text-align: right;
@@ -343,7 +343,8 @@ main{
       }
     }
   }
-  div:last-child{
+  #none{
+    display: none;
     width:260px;
     height:70px;
     background:#F9C45E;
@@ -357,7 +358,7 @@ main{
 }
 #row10{
   @include flex;
-  height:100px;
+  height:110px;
   div{
     width:45px;
     height:2px;
@@ -521,8 +522,11 @@ footer{
          margin:10px 0 15px;
        }
         p{
-          color:#fff;
-          font:200 12px/20px "";
+          a{
+            color:#fff;
+            font:200 12px/20px "";
+            text-decoration: none;
+          }
         }
       }
       div:nth-child(2){
@@ -571,7 +575,252 @@ footer{
 }
 
 @media screen and(max-width: 768px){
-  #vip6{
+  #img2{
+    display: none;
+  }
+  #vip1,#vip2,#vip3,#vip4,#vip5,#vip6,#row5{
+    display: none;
+  }
+  #vip1-1{
+    margin:20px 0;
+    height:460px;
+    background-image: url("../img/23.jpg");
+    background-size: cover;
+  }
+  #vip3-3{
+    p:nth-child(1){
+      text-align: center;
+      margin:10px 0 20px;
+      font:600 18px/30px "微软雅黑";
+    }
+    p:nth-child(2){
+      text-align: center;
+      color:#777;
+      font:18px/30px "Helvetica Neue";
+    }
+  }
+  #more{
+    height:150px;
+    div:first-child{
+      width:500px;
+      height:55px;
+      background:#F9C45E;
+      text-align: center;
+      font:900 24px/55px "";
+      color:#fff;
+      margin:70px auto 30px;
+      cursor: pointer;
+    }
+    div:last-child{
+      cursor: pointer;
+      text-align: center;
+      line-height: 55px;
+      margin:0 auto;
+      width:500px;
+      height:55px;
+      border:1px solid #BFBFBF;
+      position: relative;
+    }
+    .afterbef::after{
+      content: "";
+      width:6px;
+      height:30px;
+      background:#000;
+      position: absolute;
+      left:-2px;
+      top:11px;
+    }
+    .afterbef::before{
+      content: "";
+      width:6px;
+      height:30px;
+      background:#000;
+      position: absolute;
+      right:-2px;
+      top:11px;
+    }
+  }
+  #more2{
+    height:150px;
+    margin:0 0 200px;
+    div:first-child{
+      width:500px;
+      height:55px;
+      background:#F9C45E;
+      text-align: center;
+      font:900 24px/55px "";
+      color:#fff;
+      margin:50px auto 30px;
+      cursor: pointer;
+    }
+    div:last-child{
+      cursor: pointer;
+      text-align: center;
+      line-height: 55px;
+      margin:0 auto;
+      width:500px;
+      height:55px;
+      border:1px solid #BFBFBF;
+      position:relative;
+    }
+    .afterbef::after{
+      content: "";
+      width:6px;
+      height:30px;
+      background:#000;
+      position: absolute;
+      left:-2px;
+      top:11px;
+    }
+    .afterbef::before{
+      content: "";
+      width:6px;
+      height:30px;
+      background:#000;
+      position: absolute;
+      right:-2px;
+      top:11px;
+    }
+  }
+  #row3{
+    margin-top:200px;
+  }
+  #row4{
+    margin-top:10px;
+    padding-left:15px!important;
+  }
+  #row6{
+    margin-top:50px;
+    padding:0 15px!important;
+    position:relative;
+    z-index: 10;
+    div:first-child{
+      width: 100%;
+      height:450px;
+    }
+    div:nth-child(2){
+      position:absolute;
+      top:340px;
+      right:68px;
+      z-index: 5;
+    }
+    div:last-child{
+      position:absolute;
+      top:300px;
+      left:105px;
+    }
+  }
+  #row7{
+    position:relative;
+    margin-top:130px;
+    #img777{
+      width: 100%;
+      height:450px;
+    }
+    #vip5-5{
+      width:470px;
+      height:260px;
+      position:absolute;
+      left:105px;
+      top:360px;
+      z-index: 100;
+      background:#F9C45E;
+      text-align: left;
+      p:first-child{
+        color:#fff;
+        font:900 40px/40px "";
+        margin:50px 0 0 30px;
+      }
+      p:nth-child(2){
+        color:#fff;
+        margin:50px 0 0 30px;
+        font:600 20px/20px "";
+      }
+      p:nth-child(3){
+        color:#fff;
+        margin:10px 0 20px 30px;
+        font:400 18px/20px "";
+      }
+      span:nth-child(4){
+        color:#fff;
+        font:600 12px/20px "";
+        margin-left:45px;
+        position:relative;
+      }
+      span:nth-child(5){
+        color:#fff;
+        font:600 12px/20px "";
+        margin-left:20px;
+        position:relative;
+      }
+      span:after{
+        content: "";
+        width:10px;
+        height:10px;
+        background:#fff;
+        border-radius: 50%;
+        position:absolute;
+        top:3px;
+        left: -13px;
+      }
+      div{
+        width:50px;
+        height:50px;
+        background:#97785F;
+        border:1px solid #D0A480;
+        border-radius: 50%;
+        position:absolute;
+        left:-24px;
+        top:-21px;
+        h1{
+          margin:12px 0 0 11px;
+          color:#fff;
+          font:600 12px/12px "";
+        }
+      }
+    }
+  }
+  #row8{
+    position:relative;
+    margin-top:130px;
+    div:first-child{
+      width:100%;
+      height:450px;
+    }
+    div:nth-child(2){
+      width:470px;
+      height:260px;
+      position:absolute;
+      top:360px;
+      left:105px;
+      div{
+        top:-27px;
+        right:-22px;
+        background:#F9C45E;
+        border-color: #D8AA83;
+      }
+    }
+    div:nth-child(3){
+      display: none;
+    }
+  }
+  #row9{
+    margin-top:250px;
+  }
+  #row10{
+    padding:0 15px!important;
+  }
+  section{
+    div{
+      span:nth-child(3){
+        margin:0 18px 0 15px;
+      }
+      span:nth-child(4){
+        margin:0 0 0 13px;
+      }
+    }
+  }
+  #row12{
     display: none;
   }
   footer{
@@ -595,5 +844,9 @@ footer{
       }
     }
   }
-
+}
+@media screen and(min-width: 1200px){
+  #vip1-1,#vip3-3,#more{
+    display: none;
+  }
 }
