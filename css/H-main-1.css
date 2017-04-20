@@ -781,6 +781,8 @@ a:hover {
 .H-video-box {
   text-align: center;
   overflow: hidden;
+  position: relative;
+  height: 760px;
 }
 
 .H-video-box p:nth-child(1) {
@@ -990,11 +992,15 @@ a:hover {
 }
 
 .video-text-1 {
-  margin-top: -40px;
   width: 100%;
   height: auto;
   text-align: center;
   overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  box-sizing: border-box;
+  padding-right: 60px;
 }
 
 .video-text-1 h3 {
@@ -1023,4 +1029,116 @@ a:hover {
   text-align: left;
   display: inline-block;
   width: 460px;
+}
+
+.video-text-1 div {
+  background-image: url(../img/H-img/right-1.png);
+  background-size: 26px;
+  width: 26px;
+  height: 29px;
+  position: absolute;
+  top: 0;
+  right: 28%;
+}
+
+footer {
+  height: 320px;
+  background: #000;
+  position: absolute;
+  bottom: 139px;
+}
+
+footer #bottom {
+  height: 100%;
+  position: relative;
+}
+
+footer #bottom #botz {
+  height: 160px;
+  margin-top: 120px;
+}
+
+footer #bottom #botz div {
+  width: 20%;
+  height: 160px;
+  float: left;
+  text-align: center;
+}
+
+footer #bottom #botz div h1 {
+  font: 600 15px/20px "";
+  color: #fff;
+  margin: 10px 0 15px;
+}
+
+footer #bottom #botz div p {
+  color: #fff;
+  font: 200 12px/20px "";
+}
+
+footer #bottom #botz div:nth-child(2) img {
+  margin-bottom: 2px;
+}
+
+footer #bottom #botz div:last-child img {
+  margin-bottom: 4px;
+}
+
+footer #bottom #bott {
+  height: 100%;
+  position: relative;
+}
+
+footer #bottom #bott div:first-child {
+  width: 230px;
+  height: 150px;
+  padding: 10px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  z-index: 2;
+  background: #fff;
+}
+
+footer #bottom #bott div:first-child form input {
+  margin-bottom: 5px;
+}
+
+footer #bottom #bott div:first-child form #content {
+  height: 50px;
+}
+
+footer #bottom #bott #map {
+  width: 360px;
+  height: 250px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background-image: url("../img/47.png");
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #vip6 {
+    display: none;
+  }
+  footer {
+    height: 490px;
+  }
+  footer #bottom #botz {
+    margin-top: 280px;
+  }
+  footer #bottom #bott {
+    position: absolute;
+    top: -100px;
+  }
+  footer #bottom #bott div:first-child {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -115px;
+  }
+  footer #bottom #bott #map {
+    width: 100%;
+  }
 }
