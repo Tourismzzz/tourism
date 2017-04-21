@@ -285,10 +285,14 @@
   text-align: center;
   line-height: 80px;
   font-size: 24px;
-  color: #A3A1A1;
+  
 }
-
-.navban ul li.fir {
+.navban ul li a{
+	display: block;
+	color: #A3A1A1;
+	text-decoration:none;
+}
+.navban ul li.fir a{
   color: #000;
 }
 
