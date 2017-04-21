@@ -174,11 +174,14 @@ body,html{
   border:1px solid #fff;
   text-align: center;
   font: normal 15px/40px "";
-  color: #fff;
   position:absolute;
   top:410px;
   left:50%;
   margin-left: -125px;
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
 }
 main{
   background: #fff;

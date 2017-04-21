@@ -163,7 +163,6 @@ html, body {
 .banner > p:nth-child(4) {
   width: 200px;
   text-align: center;
-  color: #fff;
   position: absolute;
   top: 380px;
   left: 50%;
@@ -172,6 +171,9 @@ html, body {
   border: 1px solid #fff;
   height: 40px;
   line-height: 40px; }
+  .banner > p:nth-child(4) a {
+    color: #fff;
+    text-decoration: none; }
 
 main {
   position: absolute;
@@ -190,7 +192,7 @@ main {
   width: 675px;
   height: 400px;
   position: absolute;
-  top: 830px;
+  top: 900px;
   left: 0;
   z-index: 100;
   background-image: url("../img/23.jpg");
@@ -202,8 +204,8 @@ main {
   background-image: url("../img/22.jpg");
   background-size: cover;
   position: absolute;
-  top: 710px;
-  right: 170px;
+  top: 775px;
+  right: 174px;
   z-index: 100; }
 
 #vip3 {
@@ -211,8 +213,8 @@ main {
   height: 270px;
   background: #fff;
   position: absolute;
-  top: 1058px;
-  right: 0;
+  top: 1115px;
+  right: 5px;
   z-index: 101;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3); }
   #vip3 p:nth-child(1) {
@@ -326,7 +328,7 @@ main {
   height: 270px;
   position: absolute;
   left: 65px;
-  top: 2075px;
+  top: 2147px;
   z-index: 100;
   background: #F9C45E;
   text-align: right; }
