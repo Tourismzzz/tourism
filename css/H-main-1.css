@@ -549,12 +549,13 @@ a:hover {
   width: 100%;
   height: 1300px;
   padding: 20px 15px;
-  box-shadow: 0 0 9px #868686;
   position: absolute;
   top: 0;
   left: 0;
 }
-
+.shadow{
+	box-shadow: 0 0 9px #868686;
+}
 .line {
   width: 44px;
   height: 2px;
@@ -1224,3 +1225,16 @@ footer #bottom #bott #map {
   font-family: "微软雅黑";
   margin-left: -100px;
 }
+/*小动画*/
+/*@keyframes camera{
+		0%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 1;
+		}
+}
+.move-1{
+	animation: camera 2s;
+	
+}*/

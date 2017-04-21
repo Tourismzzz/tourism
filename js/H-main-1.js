@@ -60,11 +60,30 @@ let top=$('.celantop');
 //$(window).scroll(function(e){
 //	let top=document.documentElement.scrollTop||document.body.scrollTop;
 //	if(top>4000){
-//		$('.H-camera').fadeIn('slow').animate({right:50})
+//		$('.H-camera').fadeIn('slow').
 //	}else{
-//		$('.H-camera').fadeOut('slow')
+//		$('.H-camera').fadeOut('slow').
 //	}
 //})
-
+let width=$(window).width();
+$(window).resize(function(){
+	width=$(this).width();
+	if(width<1000){
+		$('.H-main-box').css({
+			padding:0,
+			width:'100%',
+		});
+		$('.customBox').removeClass('shadow');
+		$('.box-shadow').removeClass('shadow');
+	}
+})
+if(width<1000){
+	$('.H-main-box').css({
+		padding:0,
+		width:'100%',
+	});
+	$('.customBox').removeClass('shadow');
+	$('.box-shadow').removeClass('shadow');
+}
 })//onload结束
 
