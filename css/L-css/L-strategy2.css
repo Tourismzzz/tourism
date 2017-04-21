@@ -5,16 +5,12 @@
     background: url(../../img/L-img/2ban.png) center center no-repeat;
     background-origin: padding-box;
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
-  .banner .col-sm-12 img {
-    width: 60%;
+  .banner .col-sm-12 a.a {
     position: absolute;
-    top: 0px;
-    left: 0;
-    bottom: 0;
-    right: -200px;
-    margin: auto;
+    bottom: 100px;
+    right: 360px;
   }
   .title22, .xsfont {
     display: none;
@@ -101,8 +97,11 @@
     height: 880px;
     background: url(../../img/L-img/2xs_ban.png) center center no-repeat;
   }
-  .banner .col-xs-12 img {
-    display: none;
+  .banner .col-xs-12 a.a {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -140px;
   }
   .main {
     box-shadow: none !important;
