@@ -174,7 +174,7 @@
   }
   .video div#biao {
     position: absolute;
-    bottom: -28px;
+    bottom: -50px;
     left: 50%;
     margin-left: -250px;
   }
@@ -540,10 +540,6 @@
   position: relative;
 }
 
-.video .col-sm-8 img {
-  width: 100%;
-}
-
 .video > div:nth-child(2) img {
   width: 100%;
 }
@@ -565,7 +561,7 @@
 
 .video #biao {
   position: absolute;
-  bottom: 10px;
+  bottom: 50px;
   left: -40px;
 }
 
