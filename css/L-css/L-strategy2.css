@@ -1,3 +1,9 @@
+@media screen and (min-width: 1200px) {
+  div.navban {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .banner .col-sm-12 {
     width: 100%;
@@ -76,7 +82,7 @@
   .left div > p:nth-child(4) {
     margin-top: 25px;
   }
-  .left div > p:nth-child(5), .left div > p:nth-child(6), .left .leftfont3, .hui .sxbox, div.navban {
+  .left div > p:nth-child(5), .left div > p:nth-child(6), .left .leftfont3, .hui .sxbox {
     display: none;
   }
   .left .leftfont1 {

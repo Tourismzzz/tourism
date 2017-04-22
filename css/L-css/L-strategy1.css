@@ -1,3 +1,9 @@
+@media screen and (min-width: 1200px) {
+  div.navban {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .banner .col-sm-12 {
     width: 100%;
@@ -19,7 +25,7 @@
   .main .one img.an {
     display: none;
   }
-  .xsimg, .xsfont, .xsfont2, .xsam, .xsbottom, div.navban {
+  .xsimg, .xsfont, .xsfont2, .xsam, .xsbottom {
     display: none;
   }
   .tu {
