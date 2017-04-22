@@ -1396,3 +1396,18 @@ footer #bottom #bott #map {
 	animation: picOut-4 0.6s cubic-bezier(1, 0, 0.29, 0.96);
 	animation-fill-mode:forwards;
 }
+
+
+@keyframes fly-2{
+	0%{
+		transform: scaleY(0);
+		
+	}
+	100%{
+		transform: scaleY(1);		
+	}
+}
+.H-fly-in{
+	animation: fly-2 1s cubic-bezier(1,0,0.29,0.96);
+	animation-fill-mode: forwards;
+}
