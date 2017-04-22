@@ -505,7 +505,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   #text {
-    width: 70%; }
+    width: 60%; }
   .body, .p-img3, .xiexian, .del1 {
     display: none; }
   #img1 {
