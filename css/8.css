@@ -506,6 +506,34 @@ footer {
 @media screen and (max-width: 768px) {
   .body, .p-img3, .xiexian, .del1 {
     display: none; }
+  #img1 {
+    margin-top: 80px; }
+  .picture, .picture2 {
+    padding: 0 !important;
+    margin-bottom: 20px;
+    height: 240px; }
+  .bot {
+    padding: 0 !important; }
+    .bot .floorbox {
+      padding: 0 !important; }
+      .bot .floorbox .left {
+        width: 20%;
+        background-position: 75% center; }
+      .bot .floorbox .right {
+        padding-left: 10px;
+        width: 80%; }
+        .bot .floorbox .right .ll {
+          width: 100%; }
+          .bot .floorbox .right .ll div {
+            margin: 10px 0 15px; }
+            .bot .floorbox .right .ll div span {
+              margin-right: 10px; }
+          .bot .floorbox .right .ll p {
+            font-size: 15px;
+            height: 40px;
+            overflow: hidden; }
+        .bot .floorbox .right .rr {
+          display: none; }
   .span {
     margin-left: 13px;
     text-align: left; }
