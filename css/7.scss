@@ -311,7 +311,9 @@ main{
       font:600 12px/12px "";
     }
   }
-  div:last-child{
+
+  #six{
+    width:530px;
     height:260px;
     border:1px solid #ddd;
     background:#f5f5f5;
@@ -350,6 +352,7 @@ main{
     }
   }
 }
+
 #row7{
   #img777{
     width:400px;
@@ -692,6 +695,9 @@ footer{
 }
 
 @media screen and(max-width: 768px){
+  #six,#six66{
+    display: none;
+  }
   #img2{
     display: none;
   }
@@ -817,24 +823,86 @@ footer{
       right:68px;
       z-index: 5;
     }
-    div:last-child{
+
+    #vip6-5{
+      height:260px;
       position:absolute;
-      top:300px;
-      img{
-        margin-left:0;
-        width: 100%;
+      top:365px;
+      z-index: 100;
+      background:#F9C45E;
+      text-align: left;
+      p:first-child{
+        color:#fff;
+        font:900 30px/40px "";
+        margin:50px 0 0 0;
       }
       p:nth-child(2){
+        color:#fff;
         margin:10px 0 0 0;
-        font-size: 18px;
+        font:600 20px/20px "";
       }
       p:nth-child(3){
+        color:#fff;
         margin:10px 0 20px 0;
+        font:400 18px/20px "";
       }
       span:nth-child(4){
+        color:#fff;
+        font:600 12px/20px "";
+        margin-left:25px;
+        position:relative;
+      }
+      span:nth-child(5){
+        color:#fff;
+        font:600 12px/20px "";
         margin-left:20px;
+        position:relative;
+      }
+      span:after{
+        content: "";
+        width:10px;
+        height:10px;
+        background:#fff;
+        border-radius: 50%;
+        position:absolute;
+        top:3px;
+        left: -13px;
+      }
+      div{
+        width:50px;
+        height:50px;
+        background:#97785F;
+        border:1px solid #D0A480;
+        border-radius: 50%;
+        position:absolute;
+        right:-24px;
+        top:-21px;
+        h1{
+          margin:12px 0 0 11px;
+          color:#fff;
+          font:600 12px/12px "";
+        }
       }
     }
+
+    //div:last-child{
+    //  position:absolute;
+    //  top:300px;
+    //  img{
+    //    margin-left:0;
+    //    width: 100%;
+    //  }
+    //  p:nth-child(2){
+    //    margin:10px 0 0 0;
+    //    font-size: 18px;
+    //  }
+    //  p:nth-child(3){
+    //    margin:10px 0 20px 0;
+    //  }
+    //  span:nth-child(4){
+    //    margin-left:20px;
+    //  }
+    //}
   }
   #row7{
     position:relative;
@@ -1037,7 +1105,9 @@ footer{
   }
 }
 @media screen and(min-width: 1200px){
-
+  #vip6-5{
+    display: none;
+  }
   #vip1-1,#vip3-3,#more,#more2,.del2,#vip5-5{
     display: none;
   }
