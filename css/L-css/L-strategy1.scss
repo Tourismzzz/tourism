@@ -171,14 +171,22 @@
         height: 600px;
         background-size:150%; 
     }
+    div.navban{
+        height: 102px;
+    }
+    div.navban ul li{
+        height: 50px;
+        line-height: 50px;
+    }
     .banner .col-xs-12 a.a {
         position: absolute;
         top: 400px;
         left: 50%;
         margin-left: -140px;
     }
+    
     .banner .navban ul li a{
-        font-size: 20px;
+        font-size: 16px;
     }
     div.main .title img.tit1 {
         margin-top: 0;
