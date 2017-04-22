@@ -516,6 +516,20 @@ footer {
     height: 490px; }
     footer #bottom #botz {
       margin-top: 280px; }
+      footer #bottom #botz div img {
+        width: 30px; }
+      footer #bottom #botz div h1 {
+        font-size: 12px;
+        margin: 5px 0; }
+      footer #bottom #botz div p {
+        height: 20px;
+        overflow: hidden; }
+      footer #bottom #botz div:nth-child(2) img {
+        margin-bottom: 6px; }
+      footer #bottom #botz div:nth-child(3) img {
+        margin-bottom: 4px; }
+      footer #bottom #botz div:nth-child(4) img {
+        margin-bottom: 8px; }
     footer #bottom #bott {
       position: absolute;
       top: -100px; }
