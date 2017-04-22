@@ -10,6 +10,7 @@
 		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/L-strategy1.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+	
 	<body>
 		<!--小屏头部-->
 		<div class="container-fluid hidden-lg">
@@ -20,7 +21,7 @@
 							<img src="../img/H-img/min-logo.png"/>
 						</div>
 						<span class="H-text">景悦JINGYUE</span>
-						<div class="H-head-icon-list hidden-lg">
+						<div class="H-head-icon-list hidden-lg han">
 							<img src="../img/H-img/list.png"/>
 							<div class="H-list-box">
 								<a href="H-main.html" class="H-active">旅游首页</a>
@@ -83,7 +84,7 @@
 			    	<a class="a" href="L-strategy2.html">
 			    		<img src="../img/L-img/ban1.png"/>
 			    	</a>			    	
-			    	<div class="navban col-xs-12">
+			    	<div class="navban col-xs-12 anniu">
 			    		<ul>
 			    			<li class="col-xs-4"><a href="">旅游首页</a></li>
 			    			<li class="col-xs-4"><a href="">旅游中心</a></li>
@@ -273,3 +274,9 @@
     </footer>
 	</body>
 </html>
+<script type="text/javascript">
+	console.log($('.han'))
+	$('.han').click(function(){
+		$('.navban').toggleClass("anniu")
+	})
+</script>

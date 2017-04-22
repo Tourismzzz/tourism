@@ -222,6 +222,27 @@
     background-size: 120%;
     height: 250px;
   }
+  div.H-header {
+    height: 60px;
+  }
+  div.H-logo {
+    margin-top: 20px;
+  }
+  span.H-text {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  div.H-head-icon-list {
+    width: 30px;
+    margin-top: 20px;
+  }
+  div.H-head-icon-list img {
+    width: 100%;
+  }
+}
+
+.anniu {
+  display: none;
 }
 
 .navban {

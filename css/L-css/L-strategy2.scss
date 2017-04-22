@@ -298,7 +298,13 @@
     .banner .navban ul li a{
         font-size: 16px;
     }
-    
+    .video div#biao{
+        margin-left: -170px;
+    }
+    div#biao .font{
+        left: 30px;
+        line-height: 37px;
+    }
     div.main .title img.tit1 {
         margin-top: 20px;
     }
@@ -340,6 +346,24 @@
         width: 130px;
         display: inline-block;
     }
+    div.H-header {
+       height: 60px;      
+     } 
+     div.H-logo{
+         margin-top: 20px;
+     }
+   span.H-text{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    div.H-head-icon-list{
+        width: 30px;
+        margin-top: 20px;
+    }
+    div.H-head-icon-list img{
+        width: 100%;
+    }
+      
 }
 .navban{
     width:100%;
@@ -374,8 +398,9 @@
 .navban ul li:nth-child(3){
      border-bottom:1px solid #D5D4D4;
 }
-
-
+.anniu{
+    display: none;
+}
 /*main*/
 .main{
     box-shadow:0 0 30px 0px #E2E2E2;
