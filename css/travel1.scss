@@ -17,6 +17,7 @@ a:hover{
 }
 .H-header{
     height: 88px;
+    width: 750px;
 }
 .H-logo{
     @include f(32,13);    
@@ -284,6 +285,11 @@ body,html{
 				height: 179px;
 				background: url(../img/bo.png)no-repeat;
 				background-size: cover;
+				position: absolute;
+			}
+			video{
+				width: 719px;
+				height: 452px;
 			}
 		}
 	.ZI{
@@ -1235,7 +1241,7 @@ footer{
 }
 @media screen and(max-width: 850px){
 	.banner{
-		width: 100%;
+		width: 750px;
 		height: 887px;
 		background: url(../img/app.png)no-repeat;
 		background-size: cover;

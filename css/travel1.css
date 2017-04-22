@@ -9,7 +9,8 @@ a:hover {
   text-decoration: none; }
 
 .H-header {
-  height: 88px; }
+  height: 88px;
+  width: 750px; }
 
 .H-logo {
   float: left;
@@ -242,7 +243,11 @@ body, html {
         width: 179px;
         height: 179px;
         background: url(../img/bo.png) no-repeat;
-        background-size: cover; }
+        background-size: cover;
+        position: absolute; }
+      .center .center-top .TV video {
+        width: 719px;
+        height: 452px; }
     .center .center-top .ZI {
       width: 591px;
       height: 432px;
@@ -1023,7 +1028,7 @@ footer {
 
 @media screen and (max-width: 850px) {
   .banner {
-    width: 100%;
+    width: 750px;
     height: 887px;
     background: url(../img/app.png) no-repeat;
     background-size: cover;
