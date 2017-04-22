@@ -5,16 +5,12 @@
     background: url(../../img/L-img/2ban.png) center center no-repeat;
     background-origin: padding-box;
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
-  .banner .col-sm-12 img {
-    width: 60%;
+  .banner .col-sm-12 a.a {
     position: absolute;
-    top:0px;
-    left:0;
-    bottom:0;
-    right:-200px;
-    margin: auto;
+    bottom: 100px;
+    right: 360px;
   }
     .title22,.xsfont{
         display: none;
@@ -96,15 +92,17 @@
     
 }
 @media screen and (max-width: 768px){
-    .banner .ban{
-        width: 100%;
-        height:880px;
-        background: url(../../img/L-img/2xs_ban.png) center center no-repeat;
-//      background-origin: padding-box;
-    }
-    .banner .col-xs-12 img{
-        display: none;
-    }
+    .banner .ban {
+    width: 100%;
+    height: 880px;
+    background: url(../../img/L-img/2xs_ban.png) center center no-repeat;
+  }
+  .banner .col-xs-12 a.a {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -140px;
+  }
     .main{
         box-shadow:none !important;      
     }
@@ -209,6 +207,9 @@
     ul.pingul .hui div{
         margin: 10px 0 10px 0;
     }
+    div.ping .pingtit{
+        margin-top:80px ;
+    }
     ul.pingul li{
         margin-top: 35px;
         overflow: hidden;
@@ -228,6 +229,9 @@
         line-height:50px;
         color: #fff;
         font-size:22px;
+    }
+     div#biao .font{
+        width: 80%;
     }
     footer.foot{
         margin-top: 120px;
@@ -273,6 +277,62 @@
         font-weight: bold;
     }
 }
+@media screen and (max-width: 375px){
+    .banner .ban{
+        height: 600px;
+        background-size:150%; 
+    }
+    .banner .col-xs-12 a.a {
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        margin-left: -140px;
+    }
+    .banner .navban ul li a{
+        font-size: 20px;
+    }
+    div.main .title img.tit1 {
+        margin-top: 20px;
+    }
+    .p .h1 span:nth-child(2){
+        width: 93%;
+    }
+    .p .h1 span:nth-child(3){
+        font-size: 12px;
+    }
+    div.video{
+        margin: 10px;
+    }
+   .left div > p:nth-child(5), .left div > p:nth-child(6){
+       display: none;
+   }
+   ul.pingul li:nth-child(2),ul.pingul li:nth-child(3),.liu .liubox img{
+       display: none;
+   }
+   div.bo span:nth-child(2){
+       width: 120px;
+       height: 35px;
+       line-height: 35px;
+       font-size: 16px;
+   }
+   footer div#bottom div#botz div h1{
+        font-size: 14px;
+    }
+    footer div#bottom #botz div:nth-child(1),footer #bottom #botz div:nth-child(2),footer #bottom #botz div:nth-child(3){
+        width: 33.333333%;
+    }
+    footer div#bottom #botz div:nth-child(3)~div{
+        display: none;
+    }
+    .xsbottom{
+        background-size:120% ;
+        height: 250px;
+    }
+    ul.pingul .hui div span:nth-child(3){
+        width: 130px;
+        display: inline-block;
+    }
+}
 .navban{
     width:100%;
     height: 162px;
@@ -289,8 +349,12 @@
     font-size: 24px;
     color: #A3A1A1;
 }
-.navban ul li.fir{
-    color: #000;
+.navban ul li a{
+      color: #A3A1A1;
+      text-decoration:none;
+}
+.navban ul li.fir a{
+  color: #000;
 }
 .navban ul li:nth-child(1),.navban ul li:nth-child(2){
     border-right:1px solid #D5D4D4;
@@ -302,6 +366,7 @@
 .navban ul li:nth-child(3){
      border-bottom:1px solid #D5D4D4;
 }
+
 
 /*main*/
 .main{
@@ -533,8 +598,10 @@ ul{
 .pingul .hui .pingtu img{
     display: inline-block;
 }
-.pingul .hui p{
+ul.pingul div.hui p{
     color: #787878;
+    font-size: 16px;
+    font-weight: normal;
 }
 .pingul .sxbox{
     height:79px;
@@ -612,7 +679,7 @@ footer{
   #bottom{
     height:100%;
     position:relative;
-    #botz{
+    div#botz{
       height:160px;
       margin-top:120px;
       div{
@@ -620,6 +687,9 @@ footer{
         height:160px;
         float:left;
         text-align: center;
+        img{
+            width:30%;
+        }
        h1{
          font:600 15px/20px "";
          color:#fff;
@@ -635,12 +705,17 @@ footer{
       }
       div:nth-child(2){
         img{
-          margin-bottom:2px;
+          margin-bottom:4px;
+        }
+      }
+      div:nth-child(4){
+        img{
+          margin-bottom:3px;
         }
       }
       div:last-child{
         img{
-          margin-bottom:4px;
+          margin-bottom:0px;
         }
       }
     }

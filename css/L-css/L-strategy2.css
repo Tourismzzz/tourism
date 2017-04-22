@@ -206,6 +206,9 @@
   ul.pingul .hui div {
     margin: 10px 0 10px 0;
   }
+  div.ping .pingtit {
+    margin-top: 80px;
+  }
   ul.pingul li {
     margin-top: 35px;
     overflow: hidden;
@@ -225,6 +228,9 @@
     line-height: 50px;
     color: #fff;
     font-size: 22px;
+  }
+  div#biao .font {
+    width: 80%;
   }
   footer.foot {
     margin-top: 120px;
@@ -269,6 +275,63 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .banner .ban {
+    height: 600px;
+    background-size: 150%;
+  }
+  .banner .col-xs-12 a.a {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -140px;
+  }
+  .banner .navban ul li a {
+    font-size: 20px;
+  }
+  div.main .title img.tit1 {
+    margin-top: 20px;
+  }
+  .p .h1 span:nth-child(2) {
+    width: 93%;
+  }
+  .p .h1 span:nth-child(3) {
+    font-size: 12px;
+  }
+  div.video {
+    margin: 10px;
+  }
+  .left div > p:nth-child(5), .left div > p:nth-child(6) {
+    display: none;
+  }
+  ul.pingul li:nth-child(2), ul.pingul li:nth-child(3), .liu .liubox img {
+    display: none;
+  }
+  div.bo span:nth-child(2) {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+  }
+  footer div#bottom div#botz div h1 {
+    font-size: 14px;
+  }
+  footer div#bottom #botz div:nth-child(1), footer #bottom #botz div:nth-child(2), footer #bottom #botz div:nth-child(3) {
+    width: 33.333333%;
+  }
+  footer div#bottom #botz div:nth-child(3) ~ div {
+    display: none;
+  }
+  .xsbottom {
+    background-size: 120%;
+    height: 250px;
+  }
+  ul.pingul .hui div span:nth-child(3) {
+    width: 130px;
+    display: inline-block;
+  }
+}
+
 .navban {
   width: 100%;
   height: 162px;
@@ -284,14 +347,15 @@
   text-align: center;
   line-height: 80px;
   font-size: 24px;
-  
+  color: #A3A1A1;
 }
-.navban ul li a{
-	display: block;
-	color: #A3A1A1;
-	text-decoration:none;
+
+.navban ul li a {
+  color: #A3A1A1;
+  text-decoration: none;
 }
-.navban ul li.fir a{
+
+.navban ul li.fir a {
   color: #000;
 }
 
@@ -574,8 +638,10 @@ ul {
   display: inline-block;
 }
 
-.pingul .hui p {
+ul.pingul div.hui p {
   color: #787878;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .pingul .sxbox {
@@ -664,36 +730,44 @@ footer #bottom {
   position: relative;
 }
 
-footer #bottom #botz {
+footer #bottom div#botz {
   height: 160px;
   margin-top: 120px;
 }
 
-footer #bottom #botz div {
+footer #bottom div#botz div {
   width: 20%;
   height: 160px;
   float: left;
   text-align: center;
 }
 
-footer #bottom #botz div h1 {
+footer #bottom div#botz div img {
+  width: 30%;
+}
+
+footer #bottom div#botz div h1 {
   font: 600 15px/20px "";
   color: #fff;
   margin: 10px 0 15px;
 }
 
-footer #bottom #botz div p a {
+footer #bottom div#botz div p a {
   color: #fff;
   font: 200 12px/20px "";
   text-decoration: none;
 }
 
-footer #bottom #botz div:nth-child(2) img {
-  margin-bottom: 2px;
+footer #bottom div#botz div:nth-child(2) img {
+  margin-bottom: 4px;
 }
 
-footer #bottom #botz div:last-child img {
-  margin-bottom: 4px;
+footer #bottom div#botz div:nth-child(4) img {
+  margin-bottom: 3px;
+}
+
+footer #bottom div#botz div:last-child img {
+  margin-bottom: 0px;
 }
 
 footer #bottom #bott {

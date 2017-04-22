@@ -74,8 +74,8 @@
     height: 880px;
     background: url(../../img/L-img/xs_ban.png) center center no-repeat;
   }
-  .banner .col-xs-12 a.a{
-     position: absolute;
+  .banner .col-xs-12 a.a {
+    position: absolute;
     top: 600px;
     left: 50%;
     margin-left: -140px;
@@ -162,6 +162,61 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .banner .ban {
+    height: 600px;
+    background-size: 150%;
+  }
+  .banner .col-xs-12 a.a {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -140px;
+  }
+  .banner .navban ul li a {
+    font-size: 20px;
+  }
+  div.main .title img.tit1 {
+    margin-top: 0;
+  }
+  div.main .xsimg img:nth-child(2) {
+    margin-top: -220px;
+  }
+  .main .xsfont2 p:nth-child(1) ~ p {
+    display: none;
+  }
+  .tu {
+    height: 220px;
+  }
+  .xsam {
+    height: 340px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  footer.foot {
+    margin-top: 60px;
+  }
+  .xuan {
+    bottom: 1020px;
+  }
+  ul.xfont li span {
+    display: block;
+  }
+  footer #bottom div#botz div h1 {
+    font-size: 14px;
+  }
+  footer #bottom #botz div:nth-child(1), footer #bottom #botz div:nth-child(2), footer #bottom #botz div:nth-child(3) {
+    width: 33.333333%;
+  }
+  footer #bottom #botz div:nth-child(3) ~ div {
+    display: none;
+  }
+  .xsbottom {
+    background-size: 120%;
+    height: 250px;
+  }
+}
+
 .navban {
   width: 100%;
   height: 162px;
@@ -181,14 +236,16 @@
   text-align: center;
   line-height: 80px;
   font-size: 24px;
-
+  color: #A3A1A1;
   list-style: none;
 }
-.navban ul li a{
-	  color: #A3A1A1;
-	  text-decoration:none;
+
+.navban ul li a {
+  color: #A3A1A1;
+  text-decoration: none;
 }
-.navban ul li.fir a{
+
+.navban ul li.fir a {
   color: #000;
 }
 
@@ -204,11 +261,6 @@
 .navban ul li:nth-child(3) {
   border-bottom: 1px solid #D5D4D4;
 }
-.banner a{
-	display:block;
-	overflow:hidden;
-}
-
 
 /*main*/
 #ding {
@@ -240,6 +292,7 @@
 
 .main .one {
   margin-top: 60px;
+  margin-right: 0;
 }
 
 .main .one div.boxs {
@@ -417,6 +470,10 @@ footer #bottom #botz div {
   text-align: center;
 }
 
+footer #bottom #botz div img {
+  width: 30%;
+}
+
 footer #bottom #botz div h1 {
   font: 600 15px/20px "";
   color: #fff;
@@ -431,10 +488,6 @@ footer #bottom #botz div p a {
 
 footer #bottom #botz div:nth-child(2) img {
   margin-bottom: 2px;
-}
-
-footer #bottom #botz div:last-child img {
-  margin-bottom: 4px;
 }
 
 footer #bottom #bott {
