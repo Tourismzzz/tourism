@@ -504,6 +504,8 @@ footer {
     display: none; } }
 
 @media screen and (max-width: 768px) {
+  .container-fluid {
+    z-index: 10000000; }
   #text {
     width: 60%; }
   .body, .p-img3, .xiexian, .del1 {
