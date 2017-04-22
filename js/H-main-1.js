@@ -1,3 +1,10 @@
+var wid=$(window).width();
+if(wid<900){
+	$('.hidden-md').remove();
+}
+
+
+
 $(function(){
 //	大屏banner
 	$('.H-head-icon-list').on('click',function(){
