@@ -10,6 +10,9 @@ $(function(){
 		)
 	})
 	
+	$('.han').on('click',function(){
+		$('.navban').stop(true,true,true).toggleClass("anniu");
+	})
 	
 	
 	
