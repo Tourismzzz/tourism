@@ -789,6 +789,7 @@ a:hover {
   top: -100px;
   right: 50px;
   z-index: 20;
+  opacity: 0;
 }
 
 .H-video-box {
@@ -819,13 +820,16 @@ a:hover {
 }
 
 .H-video-box .video-img-1 {
+	position: relative;
   width: 25%;
   height: 460px;
   float: left;
   margin-top: -60px;
+  opacity: 0;
 }
 
 .H-video-box .video-img-1 #v-one {
+	position: relative;
   background-image: url(../img/H-img/2.jpg);
   background-size: auto 340px;
   background: cover;
@@ -835,6 +839,7 @@ a:hover {
 
 .H-video-box .video-img-1 #v-two {
   display: block;
+  position: relative;
   background-image: url(../img/H-img/4.jpg);
   width: 100%;
   height: 120px;
@@ -874,6 +879,7 @@ a:hover {
 }
 
 .H-video-box .video-img-2 {
+	position: relative;
   width: 25%;
   height: 340px;
   background-image: url(../img/H-img/3.jpg);
@@ -882,9 +888,11 @@ a:hover {
   background-size: auto 340px;
   float: left;
   margin-top: 60px;
+  opacity: 0;
 }
 
 .H-video-box .video-img-3 {
+	position: relative;
   display: block;
   width: 25%;
   height: 340px;
@@ -893,6 +901,7 @@ a:hover {
 }
 
 .H-video-box .video-img-3 a {
+	position: relative;
   display: block;
   width: 100%;
   height: 170px;
@@ -904,6 +913,7 @@ a:hover {
 }
 
 .H-video-box .video-img-3 div {
+	position: relative;
   display: block;
   width: 100%;
   height: 170px;
@@ -913,13 +923,16 @@ a:hover {
 }
 
 .H-video-box .video-img-4 {
+	position: relative;
   width: 25%;
   height: 680px;
   float: left;
   margin-top: -60px;
+  opacity: 0;
 }
 
 .H-video-box .video-img-4 div:first-child {
+	position: relative;
   width: 100%;
   height: 340px;
   background-image: url(../img/H-img/2.jpg);
@@ -929,6 +942,7 @@ a:hover {
 }
 
 .H-video-box .video-img-4 div:last-child {
+	position: relative;
   width: 100%;
   height: 340px;
   background: #f9c45e;
@@ -984,6 +998,7 @@ a:hover {
 }
 
 .H-video-box .video-title-2 {
+	position: relative;
   width: 75%;
   height: 40px;
   text-align: left;
@@ -1226,15 +1241,158 @@ footer #bottom #bott #map {
   margin-left: -100px;
 }
 /*小动画*/
-/*@keyframes camera{
+@keyframes camera{
 		0%{
 			opacity: 0;
+			top: -200px;
 		}
 		100%{
 			opacity: 1;
+			top: -100px;
 		}
 }
 .move-1{
-	animation: camera 2s;
-	
-}*/
+	animation: camera 0.8s cubic-bezier(1, 0, 0.29, 0.96);
+	animation-delay: 0.2s;
+	animation-fill-mode:forwards;
+}
+@keyframes cameraOut{
+		0%{
+			opacity: 1;
+			top: -100px;
+		}
+		100%{
+			opacity:0;
+			top: -200px;
+		}
+}
+.move-1-1{
+	animation: cameraOut 1s cubic-bezier(1, 0, 0.55, 1.18);
+	animation-fill-mode:forwards;
+}
+
+
+
+@keyframes pic-1{
+		0%{
+			opacity: 0;
+			right: -300px;
+		}
+		100%{
+			opacity: 1;
+			right: 0;
+		}
+}
+.move-2{
+	animation: pic-1 0.7s cubic-bezier(1, 0, 0.29, 0.96);
+	animation-delay:0.4s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes picOut-1{
+		0%{
+			opacity: 1;
+			right: 0px;
+		}
+		100%{
+			opacity: 0;
+			right: -300px;
+		}
+}
+.move-2-1{
+	animation: picOut-1 1s cubic-bezier(1, 0, 0.55, 1.18);
+	animation-fill-mode:forwards;
+}
+
+
+@keyframes pic-2{
+		0%{
+			opacity: 0;
+			left: -300px;
+		}
+		100%{
+			opacity: 1;
+			left: 0;
+		}
+}
+.move-3{
+	animation: pic-2 0.5s cubic-bezier(1, 0, 0.29, 0.96);
+	animation-delay: 0.2s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes picOut-2{
+		0%{
+			opacity: 1;
+			left: 0px;
+		}
+		100%{
+			opacity: 0;
+			left: -300px;
+		}
+}
+.move-3-1{
+	animation: picOut-2 1s cubic-bezier(1, 0, 0.55, 1.18);
+	animation-fill-mode:forwards;
+}
+
+
+@keyframes pic-3{
+		0%{
+			opacity: 0;
+			top: -300px;
+		}
+		100%{
+			opacity: 1;
+			top: 0;
+		}
+}
+.move-4{
+	animation: pic-3 0.6s cubic-bezier(1, 0, 0.29, 0.96);
+	animation-fill-mode:forwards;
+}
+
+@keyframes picOut-3{
+		0%{
+			opacity: 1;
+			top: 0px;
+		}
+		100%{
+			opacity: 0;
+			top: -300px;
+		}
+}
+.move-4-1{
+	animation: picOut-3 1s cubic-bezier(1, 0, 0.55, 1.18);
+	animation-fill-mode:forwards;
+}
+
+@keyframes pic-4{
+		0%{
+			opacity: 0;
+			top: 100px;
+		}
+		100%{
+			opacity: 1;
+			top: 0;
+		}
+}
+.move-5{
+	animation: pic-4 0.6s cubic-bezier(1, 0, 0.29, 0.96);
+	animation-fill-mode:forwards;
+}
+
+@keyframes picOut-4{
+		0%{
+			opacity: 1;
+			top: 0px;
+		}
+		100%{
+			opacity: 0;
+			top: 100px;
+		}
+}
+.move-5-1{
+	animation: picOut-4 0.6s cubic-bezier(1, 0, 0.29, 0.96);
+	animation-fill-mode:forwards;
+}

@@ -56,15 +56,30 @@ let top=$('.celantop');
 	top.click(function(){
 	$(document.documentElement).animate({scrollTop:0},800);
 	$(document.body).animate({scrollTop:0});
-	})
-//$(window).scroll(function(e){
-//	let top=document.documentElement.scrollTop||document.body.scrollTop;
-//	if(top>4000){
-//		$('.H-camera').fadeIn('slow').
-//	}else{
-//		$('.H-camera').fadeOut('slow').
-//	}
-//})
+	});
+	
+//滚轮动画	
+$(window).scroll(function(){
+	let n=document.documentElement.scrollTop||document.body.scrollTop;
+	if(n>4100){
+		$('.H-camera').addClass('move-1');
+		$('.H-camera').removeClass('move-1-1');
+		$('.H-video-box').children('.video-img-1').addClass('move-3').delay(800).end().children('.video-img-2').addClass('move-4').end().children('.video-img-4').addClass('move-2')
+		$('.H-video-box').children('.video-img-1').removeClass('move-3-1').delay(800).end().children('.video-img-2').removeClass('move-4-1').end().children('.video-img-4').removeClass('move-2-1')
+		$('.video-title-2').removeClass('move-5-1').addClass('move-5')
+		$('.video-img-3').fadeIn(600);
+	}else{
+		$('.H-camera').removeClass('move-1');
+		$('.H-camera').addClass('move-1-1');
+		$('.H-video-box').children('.video-img-1').removeClass('move-3').delay(800).end().children('.video-img-2').removeClass('move-4').end().children('.video-img-4').removeClass('move-2');
+		$('.H-video-box').children('.video-img-1').addClass('move-3-1').delay(800).end().children('.video-img-2').addClass('move-4-1').end().children('.video-img-4').addClass('move-2-1');
+		$('.video-img-3').fadeOut(1000);
+		$('.video-title-2').removeClass('move-5').addClass('move-5-1')
+	}
+	
+	
+})
+
 let width=$(window).width();
 $(window).resize(function(){
 	width=$(this).width();
