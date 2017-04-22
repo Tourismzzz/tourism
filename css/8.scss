@@ -553,6 +553,45 @@ footer{
   .body,.p-img3,.xiexian,.del1{
     display: none;
   }
+  #img1{
+    margin-top:80px;
+  }
+  .picture,.picture2{
+    padding:0!important;
+    margin-bottom:20px;
+    height:240px;
+  }
+  .bot{
+    padding:0!important;
+    .floorbox{
+      padding:0!important;
+      .left{
+        width:20%;
+        background-position: 75% center;
+      }
+      .right{
+        padding-left: 10px;
+        width:80%;
+        .ll{
+          width:100%;
+          div{
+            margin:10px 0 15px;
+            span{
+              margin-right: 10px;
+            }
+          }
+          p{
+            font-size: 15px;
+            height:40px;
+            overflow: hidden;
+          }
+        }
+        .rr{
+          display: none;
+        }
+      }
+    }
+  }
   .span{
     margin-left:13px;
     text-align: left;
