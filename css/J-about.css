@@ -12,7 +12,7 @@ height: 5000px;
 .a-bg{
 	width:100%;
 	height:800px;
-	background: url(../img/a-bg_02.png) center center no-repeat;
+	background:url(../img/a-bg_02.png) center center no-repeat;
 	background-size:cover;
 	/*background-origin: padding-box;*/
 	/*margin-top:75px ;*/
@@ -36,7 +36,7 @@ height: 5000px;
     text-decoration: none;
 }
 .team{
-	height:3000px;
+	height:auto;
 	background: #fff;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	margin-top: -350px;
@@ -48,20 +48,20 @@ height: 5000px;
     
 }
 .team-dt{
-     width:390px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    width:390px;
+    margin: 0 auto;   
+   margin-top:100px ;
+   margin-bottom: 20px;
 }
 .space{
     background: #97785f;
     height:1px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 .team p{
     font-size:13px;
     font-family: '宋体';
-    color:#a6a6a6;
+    color:#cccccc;
     text-align: center;
     margin-bottom:0 ;
 }
@@ -71,6 +71,7 @@ height: 5000px;
 }
 .dt{
    overflow: hidden;
+   height: auto;
 }
 .team .des{
    margin: 30px auto 0;
@@ -138,7 +139,7 @@ height: 5000px;
    width:390px;
    
    margin: 0 auto;
-   margin-top: 60px;
+  
    margin-bottom: 20px;
 }
 .activity .col-sm-7{
@@ -230,6 +231,14 @@ height: 5000px;
 }
 .a-form{
    display: none;
+}
+@media screen and (min-width: 768px)  {
+     .team{
+         box-shadow:0 0 5px rgba(0,0,0,0.5);
+     }
+     .xs{
+         display: none;   
+     }
 }
 /*小屏*/
 @media screen and (max-width: 768px) {
@@ -390,7 +399,7 @@ p.active-t{
 }
 
 .activity .team-dt{
-   width:370px;
+   width:350px;
    
    margin: 0 auto;
    margin-top: 60px;
@@ -398,5 +407,28 @@ p.active-t{
 }
 .pre .l-phone{
    font-weight: bold;
+}
+.active-t{
+   
+}
+footer{
+    height:700px;
+}
+
+footer .bott div:nth-child(2){
+    margin-top: -80px;
+    background: #FFFFFF;
+}
+footer .bott div:nth-child(2) input{
+     margin-top: 10px;
+}
+footer .bott div:nth-child(2) input:last-child{
+     margin-bottom: 10px;
+}
+footer #bott{
+   margin-top: 50px;
+}
+footer a{
+    font-size:10px!important;
 }
 }
